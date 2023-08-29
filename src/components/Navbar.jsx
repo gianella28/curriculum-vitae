@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="container">
 
         <h1 className="h1 logo">
-          <a href="#inicio">Katherine<span>.</span></a>
+          <a href="#">Katherine<span>.</span></a>
         </h1>
 
         <div className="navbar-actions">

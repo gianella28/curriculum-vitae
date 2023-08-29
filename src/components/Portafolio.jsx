@@ -10,31 +10,27 @@ export const Portafolio = () => {
       <li>
         <div className="project-content section-content">
 
-          <p className="section-subtitle">My Works</p>
+          <p className="section-subtitle">Mis trabajos</p>
 
-          <h2 className="h3 section-title">See My Works Which Will Amaze You!</h2>
+          <h2 className="h3 section-title">¡Explore mi portafolio y prepárese para sorprenderse!</h2>
 
           <p className="section-text">
-            We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
-            elegant interface
-            helps any non-technical clients.
+           
           </p>
 
         </div>
       </li>
 
       <li>
-        <a href="#" className="project-card">
+        <a href="https://gianella28.github.io/react-gif-expert/" className="project-card">
 
           <figure className="card-banner">
-            <img src="./assets/images/project-1.png" className="w-100" alt="A macintosh on a yellow background."/>
+            <img src="./src/assets/images/gifExpert.png" className="w-100" alt="A macintosh on a yellow background."/>
           </figure>
 
           <div className="card-content">
-            <h3 className="h4 card-title">Lorem Ipsum Dolor 01</h3>
-
-            <time className="publish-date" dateTime="2022-04">April 2022</time>
-
+            <h3 className="h4 card-title">GifExpert App</h3>
+            <h2 className="publish-date">React, JavaScritp, Html, Css</h2>
           </div>
 
         </a>

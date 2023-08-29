@@ -309,17 +309,20 @@ body.active { overflow: hidden; }
   position: relative;
   min-width: 77px;
   z-index: 2;
+  
 }
 
 .logo a {
   color: var(--color-primary);
   font-family: var(--ff-saira-stencil-one);
+
 }
 
 .logo span {
   display: inline-block;
   color: var(--raw-seinna);
   margin-left: 2px;
+
 }
 
 .navbar-actions {
@@ -599,9 +602,9 @@ main { overflow-x: hidden; }
   content: "";
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 14px;
   bottom: 5px;
-  width: 93px;
+  width: 128px;
   background: var(--raw-seinna);
   border-radius: 100px;
   transition: var(--transition-1);
@@ -609,8 +612,8 @@ main { overflow-x: hidden; }
 }
 
 .skills-toggle.active::before {
-  left: 98px;
-  width: 94px;
+  left: 165px;
+  width: 140px;
 }
 
 .toggle-btn {

@@ -7,20 +7,19 @@ export const Habilidades = () => {
 
         <div className="skills-content section-content">
 
-          <p className="section-subtitle">My skills</p>
+          <p className="section-subtitle">Mis habilidades</p>
 
-          <h2 className="h3 section-title">What My Programming Skills Included?</h2>
+          <h2 className="h3 section-title">¿Qué incluyen mis conocimientos de programación?</h2>
 
           <p className="section-text">
-            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
-            and time
-            with those technologies.
+            Desarrollo interfaces de usuario sencillas, intuitivas y con capacidad de respuesta que ayudan a los usuarios a 
+            hacer las cosas con menos esfuerzo y tiempo con esas tecnologías.
           </p>
 
           <div className="skills-toggle" data-toggle-box>
-            <button className="toggle-btn active" data-toggle-btn>Skills</button>
+            <button className="toggle-btn active" data-toggle-btn>Habilidades</button>
 
-            <button className="toggle-btn" data-toggle-btn>Tools</button>
+            <button className="toggle-btn" data-toggle-btn>Herramientas</button>
           </div>
 
         </div>
@@ -28,6 +27,15 @@ export const Habilidades = () => {
         <div className="skills-box" data-skills-box>
 
           <ul className="skills-list">
+          <li>
+              <div className="skill-card">
+                <div className="tooltip">React</div>
+
+                <div className="card-icon">
+                  <img src="./src/assets/images/react.png" alt="React logo"/>
+                </div>
+              </div>
+            </li>
 
             <li>
               <div className="skill-card">
@@ -61,20 +69,20 @@ export const Habilidades = () => {
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">TypeScript</div>
+                <div className="tooltip">Ionic</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/typescript.png" alt="TypeScript logo"/>
+                  <img src="./src/assets/images/ionic.png" alt="Ionic logo" style={{ width: '50px' }} />
                 </div>
               </div>
             </li>
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">jQuery</div>
+                <div className="tooltip">Microsof VS</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/jquery.png" alt="jQuery logo"/>
+                  <img src="./src/assets/images/visualS.png" alt="VisualS logo" style={{ width: '50px' }} />
                 </div>
               </div>
             </li>
@@ -91,30 +99,20 @@ export const Habilidades = () => {
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">Angular</div>
+                <div className="tooltip">C#</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/angular.png" alt="Angular logo"/>
+                  <img src="./src/assets/images/c.png" alt="C logo" style={{ width: '50px' }}/>
                 </div>
               </div>
             </li>
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">React</div>
+                <div className="tooltip">Node js</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/react.png" alt="React logo"/>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="skill-card">
-                <div className="tooltip">Vue</div>
-
-                <div className="card-icon">
-                  <img src="./src/assets/images/vue.png" alt="Vue logo"/>
+                  <img src="./src/assets/images/node.png" alt="Node logo" style={{ width: '50px' }}/>
                 </div>
               </div>
             </li>
@@ -131,10 +129,30 @@ export const Habilidades = () => {
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">PugJs</div>
+                <div className="tooltip">MongoDB</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/pugjs.png" alt="PugJs logo"/>
+                  <img src="./src/assets/images/mongoDB.png" alt="MongoDB logo" style={{ width: '50px' }}/>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">SQLite</div>
+
+                <div className="card-icon">
+                  <img src="./src/assets/images/sqlite.png" alt="SQLite logo" style={{ width: '50px' }}/>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">Jest</div>
+
+                <div className="card-icon">
+                  <img src="./src/assets/images/jest.png" alt="Jest logo" style={{ width: '50px' }}/>
                 </div>
               </div>
             </li>
@@ -165,10 +183,10 @@ export const Habilidades = () => {
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">Gulp</div>
+                <div className="tooltip">Vite</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/gulp.png" alt="Gulp logo"/>
+                  <img src="./src/assets/images/vite.png" alt="Vite logo" style={{ width: '50px' }}/>
                 </div>
               </div>
             </li>
@@ -189,6 +207,16 @@ export const Habilidades = () => {
 
                 <div className="card-icon">
                   <img src="./src/assets/images/git.png" alt="Git logo"/>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">Github</div>
+
+                <div className="card-icon">
+                  <img src="./src/assets/images/github.png" alt="Github logo" style={{ width: '50px' }}/>
                 </div>
               </div>
             </li>
@@ -226,20 +254,10 @@ export const Habilidades = () => {
 
             <li>
               <div className="skill-card">
-                <div className="tooltip">Trello</div>
+                <div className="tooltip">Jira</div>
 
                 <div className="card-icon">
-                  <img src="./src/assets/images/trello.png" alt="Trello logo"/>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="skill-card">
-                <div className="tooltip">ClickUp</div>
-
-                <div className="card-icon">
-                  <img src="./src/assets/images/clickup.png" alt="ClickUp logo"/>
+                  <img src="./src/assets/images/jira.png" alt="Jira logo"  style={{ width: '80px' }}/>
                 </div>
               </div>
             </li>
@@ -250,6 +268,26 @@ export const Habilidades = () => {
 
                 <div className="card-icon">
                   <img src="./src/assets/images/slack.png" alt="Slack logo"/>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">Postman</div>
+
+                <div className="card-icon">
+                  <img src="./src/assets/images/postman.png" alt="Postman logo" style={{ width: '65px' }}/>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div className="skill-card">
+                <div className="tooltip" >Illustrator</div>
+
+                <div className="card-icon" style={{ marginLeft: '-10px' }}>
+                  <img src="./src/assets/images/illustrator.png" alt="Illustrator logo" style={{ width: '100px' }}/>
                 </div>
               </div>
             </li>

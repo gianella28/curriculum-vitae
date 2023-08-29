@@ -14,30 +14,25 @@ export const Acerca = () => {
 
       <p className="section-subtitle">Acerca</p>
 
-      <h2 className="h3 section-title">Need a Creative Product? I can Help You!</h2>
+      <h2 className="h3 section-title">¿Necesita un producto creativo? ¡Puedo ayudarle!</h2>
 
       <p className="section-text">
-        Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive
-        functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
-        curious about
-        learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
-        worked with
-        creative teams, which involves daily stand-ups and communications, source control, and project management.
+      Hola, soy Katherine Ramirez, una desarrolladora apasionada por crear aplicaciones web limpias y funcionales. 
+      Mi enfoque es convertir ideas en soluciones creativas y eficientes. Me especializo en el desarrollo en React
+      y me apasiona construir interfaces interactivas. Mantengo una curiosidad constante por aprender nuevas habilidades
+      y estar al día en un entorno tecnológico en evolución. He trabajado en proyectos full stack en solitario y 
+      colaborado con equipos creativos, lo que incluye stand-ups, comunicación diaria, control de versiones y gestión de proyectos. 
+      ¡Estoy emocionada por seguir explorando y contribuyendo al emocionante mundo del desarrollo web!
       </p>
 
       <div className="btn-group">
         <button className="btn btn-secondary">Hire me</button>
 
-        <button className="btn btn-primary">Download cv</button>
+        <button className="btn btn-primary">Descargar cv</button>
       </div>
 
     </div>
-
-    
-
   </section>
   </article>
-
-  
   )
 }
